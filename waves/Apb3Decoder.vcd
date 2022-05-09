@@ -1,0 +1,132 @@
+$date
+	Sat Apr  9 19:06:52 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Apb3Decoder $end
+$var wire 1 ! _zz_mappingHitsIndex $end
+$var wire 1 " _zz_mappingHitsIndex_1 $end
+$var wire 16 # io_input_PADDR [15:0] $end
+$var wire 1 $ io_input_PENABLE $end
+$var wire 32 % io_input_PRDATA [31:0] $end
+$var wire 1 & io_input_PREADY $end
+$var wire 1 ' io_input_PSEL $end
+$var wire 1 ( io_input_PSLVERROR $end
+$var wire 32 ) io_input_PWDATA [31:0] $end
+$var wire 1 * io_input_PWRITE $end
+$var wire 16 + io_outputs_0_PADDR [15:0] $end
+$var wire 1 , io_outputs_0_PENABLE $end
+$var wire 32 - io_outputs_0_PRDATA [31:0] $end
+$var wire 1 . io_outputs_0_PREADY $end
+$var wire 1 / io_outputs_0_PSEL $end
+$var wire 1 0 io_outputs_0_PSLVERROR $end
+$var wire 32 1 io_outputs_0_PWDATA [31:0] $end
+$var wire 1 2 io_outputs_0_PWRITE $end
+$var wire 16 3 io_outputs_1_PADDR [15:0] $end
+$var wire 1 4 io_outputs_1_PENABLE $end
+$var wire 32 5 io_outputs_1_PRDATA [31:0] $end
+$var wire 1 6 io_outputs_1_PREADY $end
+$var wire 1 7 io_outputs_1_PSEL $end
+$var wire 1 8 io_outputs_1_PSLVERROR $end
+$var wire 32 9 io_outputs_1_PWDATA [31:0] $end
+$var wire 1 : io_outputs_1_PWRITE $end
+$var wire 16 ; io_outputs_2_PADDR [15:0] $end
+$var wire 1 < io_outputs_2_PENABLE $end
+$var wire 32 = io_outputs_2_PRDATA [31:0] $end
+$var wire 1 > io_outputs_2_PREADY $end
+$var wire 1 ? io_outputs_2_PSEL $end
+$var wire 1 @ io_outputs_2_PSLVERROR $end
+$var wire 32 A io_outputs_2_PWDATA [31:0] $end
+$var wire 1 B io_outputs_2_PWRITE $end
+$var wire 16 C io_outputs_3_PADDR [15:0] $end
+$var wire 1 D io_outputs_3_PENABLE $end
+$var wire 32 E io_outputs_3_PRDATA [31:0] $end
+$var wire 1 F io_outputs_3_PREADY $end
+$var wire 1 G io_outputs_3_PSEL $end
+$var wire 1 H io_outputs_3_PSLVERROR $end
+$var wire 32 I io_outputs_3_PWDATA [31:0] $end
+$var wire 1 J io_outputs_3_PWRITE $end
+$var wire 1 K mappingHits_0 $end
+$var wire 1 L mappingHits_1 $end
+$var wire 1 M mappingHits_2 $end
+$var wire 1 N mappingHits_3 $end
+$var wire 2 O mappingHitsIndex [1:0] $end
+$var reg 32 P _zz_io_input_PRDATA [31:0] $end
+$var reg 1 Q _zz_io_input_PREADY $end
+$var reg 1 R _zz_io_input_PSLVERROR $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+zR
+zQ
+bz P
+b0 O
+0N
+0M
+0L
+0K
+1J
+b1101011101010101001010001010101 I
+zH
+0G
+zF
+bz E
+1D
+b1101100000101100 C
+1B
+b1101011101010101001010001010101 A
+z@
+0?
+z>
+bz =
+1<
+b1101100000101100 ;
+1:
+b1101011101010101001010001010101 9
+z8
+07
+z6
+bz 5
+14
+b1101100000101100 3
+12
+b1101011101010101001010001010101 1
+z0
+0/
+z.
+bz -
+1,
+b1101100000101100 +
+1*
+b1101011101010101001010001010101 )
+z(
+0'
+z&
+bz %
+1$
+b1101100000101100 #
+0"
+0!
+$end
+#1000
+b10 O
+1"
+1?
+1M
+b101101110101001 +
+b101101110101001 3
+b101101110101001 ;
+b101101110101001 C
+b101101110101001 #
+1'
+b110111111010111101110011011001 1
+b110111111010111101110011011001 9
+b110111111010111101110011011001 A
+b110111111010111101110011011001 I
+b110111111010111101110011011001 )
+#2001

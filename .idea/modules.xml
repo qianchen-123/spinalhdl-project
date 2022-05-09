@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpinalWorkshop.iml" filepath="$PROJECT_DIR$/.idea/modules/SpinalWorkshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpinalWorkshop-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SpinalWorkshop-build.iml" />
+    </modules>
+  </component>
+</project>

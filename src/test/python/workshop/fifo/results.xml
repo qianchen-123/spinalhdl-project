@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1648136098" />
+    <testcase name="test1" classname="StreamFifoTester" file="/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/test/python/workshop/fifo/StreamFifoTester.py" lineno="44" time="287.4785189628601" sim_time_ns="2114392.0" ratio_time="7354.956494238661">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>

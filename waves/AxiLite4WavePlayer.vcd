@@ -1,0 +1,151 @@
+$date
+	Sat Apr  9 19:06:24 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module AxiLite4WavePlayer $end
+$var wire 16 ! _zz_wavePlayer_sampler_rom_port0 [15:0] $end
+$var wire 1 " clk $end
+$var wire 10 # factory_readDataStage_payload_addr [9:0] $end
+$var wire 3 $ factory_readDataStage_payload_prot [2:0] $end
+$var wire 1 % factory_readDataStage_ready $end
+$var wire 1 & factory_readHaltRequest $end
+$var wire 1 ' factory_readOccur $end
+$var wire 2 ( factory_readRsp_resp [1:0] $end
+$var wire 1 ) factory_writeHaltRequest $end
+$var wire 1 * factory_writeJoinEvent_fire $end
+$var wire 1 + factory_writeJoinEvent_ready $end
+$var wire 2 , factory_writeJoinEvent_translated_payload_resp [1:0] $end
+$var wire 1 - factory_writeJoinEvent_translated_ready $end
+$var wire 1 . factory_writeJoinEvent_translated_valid $end
+$var wire 1 / factory_writeJoinEvent_valid $end
+$var wire 1 0 factory_writeOccur $end
+$var wire 2 1 factory_writeRsp_resp [1:0] $end
+$var wire 10 2 io_axiLite_ar_payload_addr [9:0] $end
+$var wire 3 3 io_axiLite_ar_payload_prot [2:0] $end
+$var wire 1 4 io_axiLite_ar_valid $end
+$var wire 10 5 io_axiLite_aw_payload_addr [9:0] $end
+$var wire 3 6 io_axiLite_aw_payload_prot [2:0] $end
+$var wire 1 7 io_axiLite_aw_ready $end
+$var wire 1 8 io_axiLite_aw_valid $end
+$var wire 2 9 io_axiLite_b_payload_resp [1:0] $end
+$var wire 1 : io_axiLite_b_ready $end
+$var wire 1 ; io_axiLite_b_valid $end
+$var wire 32 < io_axiLite_r_payload_data [31:0] $end
+$var wire 2 = io_axiLite_r_payload_resp [1:0] $end
+$var wire 1 > io_axiLite_r_ready $end
+$var wire 1 ? io_axiLite_r_valid $end
+$var wire 32 @ io_axiLite_w_payload_data [31:0] $end
+$var wire 4 A io_axiLite_w_payload_strb [3:0] $end
+$var wire 1 B io_axiLite_w_ready $end
+$var wire 1 C io_axiLite_w_valid $end
+$var wire 16 D io_wave [15:0] $end
+$var wire 1 E reset $end
+$var wire 8 F wavePlayer_filter_coef [7:0] $end
+$var wire 16 G wavePlayer_phase_rate [15:0] $end
+$var wire 1 H wavePlayer_phase_run $end
+$var wire 16 I wavePlayer_sampler_sample [15:0] $end
+$var wire 1 J when_Stream_l342_1 $end
+$var wire 1 K when_Stream_l342 $end
+$var wire 16 L wavePlayer_filter_value [15:0] $end
+$var wire 16 M wavePlayer_filter_filtredSampler [15:0] $end
+$var wire 1 N wavePlayer_filter_bypass $end
+$var wire 1 O factory_readDataStage_valid $end
+$var wire 5 P _zz_wavePlayer_sampler_sample [4:0] $end
+$var wire 24 Q _zz_wavePlayer_filter_accumulator_3 [23:0] $end
+$var wire 32 R _zz_wavePlayer_filter_accumulator_2 [31:0] $end
+$var wire 24 S _zz_wavePlayer_filter_accumulator_1 [23:0] $end
+$var wire 24 T _zz_wavePlayer_filter_accumulator [23:0] $end
+$var wire 1 U _zz_io_axiLite_r_valid $end
+$var wire 1 V _zz_io_axiLite_b_valid_1 $end
+$var wire 1 W _zz_io_axiLite_b_valid $end
+$var reg 1 X _zz_factory_writeJoinEvent_translated_ready $end
+$var reg 2 Y _zz_io_axiLite_b_payload_resp [1:0] $end
+$var reg 1 V _zz_io_axiLite_b_valid_2 $end
+$var reg 8 Z _zz_wavePlayer_filter_coef [7:0] $end
+$var reg 16 [ _zz_wavePlayer_phase_rate [15:0] $end
+$var reg 1 \ _zz_wavePlayer_phase_run $end
+$var reg 32 ] factory_readRsp_data [31:0] $end
+$var reg 10 ^ io_axiLite_ar_rData_addr [9:0] $end
+$var reg 3 _ io_axiLite_ar_rData_prot [2:0] $end
+$var reg 1 O io_axiLite_ar_rValid $end
+$var reg 1 ` io_axiLite_ar_ready $end
+$var reg 24 a wavePlayer_filter_accumulator [23:0] $end
+$var reg 1 N wavePlayer_filter_bypass_driver $end
+$var reg 16 b wavePlayer_phase_value [15:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx b
+bx a
+x`
+bx _
+bx ^
+bx ]
+x\
+bx [
+bx Z
+bx Y
+zX
+1W
+xV
+1U
+bx T
+bx S
+bx R
+bx Q
+bx P
+xO
+xN
+bx M
+bx L
+xK
+xJ
+bx I
+xH
+bx G
+bx F
+zE
+bx D
+zC
+xB
+bz A
+bz @
+x?
+z>
+b0 =
+bx <
+x;
+z:
+bx 9
+z8
+x7
+bz 6
+bz 5
+z4
+bz 3
+bz 2
+b0 1
+x0
+x/
+x.
+x-
+b0 ,
+x+
+x*
+0)
+b0 (
+x'
+0&
+x%
+bx $
+bx #
+z"
+bx !
+$end
+#8000001

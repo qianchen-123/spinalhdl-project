@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1649523984" />
+    <testcase name="test1" classname="Tester" file="/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/test/python/workshop/waveplayer/Tester.py" lineno="91" time="0.19769549369812012" sim_time_ns="8000.001" ratio_time="40466.27897455243">
+      <failure />
+    </testcase>
+  </testsuite>
+</testsuites>

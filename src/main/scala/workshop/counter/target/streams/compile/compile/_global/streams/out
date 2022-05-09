@@ -1,0 +1,31 @@
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:5:40: not found: type Component[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Counter(width: Int) extends Component {[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:6:16: not found: type Bundle[0m
+[0m[[0m[31merror[0m] [0m[0m  val io = new Bundle {[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:7:20: not found: value in[0m
+[0m[[0m[31merror[0m] [0m[0m    val clear    = in  Bool()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:8:20: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m    val value    = out UInt(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:8:35: value bits is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val value    = out UInt(width bits)[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/Counter.scala:9:20: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m    val full     = out Bool()[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/CounterMain.scala:3:8: not found: object spinal[0m
+[0m[[0m[31merror[0m] [0m[0mimport spinal.core._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/CounterMain.scala:8:5: not found: value SpinalConfig[0m
+[0m[[0m[31merror[0m] [0m[0m    SpinalConfig(targetDirectory = "rtl").generateVhdl(Counter(width = 4))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zqc/桌面/etn5_internship/SpinalWorkshop/src/main/scala/workshop/counter/CounterMain.scala:8:18: not found: value targetDirectory[0m
+[0m[[0m[31merror[0m] [0m[0m    SpinalConfig(targetDirectory = "rtl").generateVhdl(Counter(width = 4))[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m

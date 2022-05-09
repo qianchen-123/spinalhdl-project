@@ -1,0 +1,35 @@
+$date
+	Fri Mar 25 12:11:28 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Counter $end
+$var wire 1 ! clk $end
+$var wire 1 " io_clear $end
+$var wire 1 # io_full $end
+$var wire 4 $ io_value [3:0] $end
+$var wire 1 % reset $end
+$var wire 4 & zz_2 [3:0] $end
+$var wire 4 ' zz_3 [3:0] $end
+$var wire 1 ( zz_4 $end
+$var wire 4 ) zz_1 [3:0] $end
+$var reg 4 * counter [3:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+bx )
+x(
+b1111 '
+b1111 &
+z%
+bx $
+x#
+z"
+z!
+$end
